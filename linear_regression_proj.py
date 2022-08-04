@@ -94,6 +94,7 @@ summary = pd.DataFrame(lm.coef_, X.columns, columns=['Coeff'])
 # Amount Spent
 # The following table of coefficients supports our earlier conclusion that the strongest correlation is between
 # 'Yearly Amount Spent' and 'Length of Membership'. The coefficients show us that if all other fields are fixed
-# The company should focus more on their mobile app than on their website as it has a much higher coefficient
+# The company should focus more on their mobile app than on their website as it has a much higher coefficient and will
+# therefore have more impact on the 'Yearly Amount Spent'
 print(summary)
 
