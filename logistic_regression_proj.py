@@ -32,7 +32,7 @@ sns.jointplot(x='Daily Time Spent on Site', y='Daily Internet Usage', data=ad_da
 # Create a pairplot with the hue defined by the 'Clicked on Ad' column feature.
 sns.pairplot(data=ad_data, hue='Clicked on Ad')
 
-# plt.show()
+plt.show()
 
 
 # Logistic Regression
